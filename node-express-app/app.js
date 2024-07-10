@@ -21,6 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//기본 샘플 라우터 모듈의 기본 URL주소 정의영역 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
