@@ -29,6 +29,7 @@ function textConverter(text,length){
 //utility 모듈내 변수,상수,함수 내보내기
 //객체로 정의해서 한번에 외부로 보냄
 //주로 이 방법을 사용
+//자바스크립트 객체의 속성명과 속성에 할당되는변수(상수)명이 같으면 변수/상수명을 생략가능
 module.exports = {
     appName: appName,
     serviceDomains: serviceDomains,
