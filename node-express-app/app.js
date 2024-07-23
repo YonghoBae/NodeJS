@@ -1,3 +1,6 @@
+//npm start --> bin/www.js실행 --> app.js --> routing 모듈 호출 --> 라우팅메소드 호출
+//-->DATA(Model) 또는 
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
